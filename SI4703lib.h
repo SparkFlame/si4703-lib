@@ -6,10 +6,9 @@
 class Si4703
 {
   public:
-    void initRadio ()
-    {
-
-    }
+    void initRadio ();
+    void Up ();
+    void Down();
   private:
     int _resetPin;
     int _sdio;
